@@ -11,7 +11,7 @@
   };
 in {
   # every shell uses this
-  home.file.".config/starship.toml".source = ./../starship.toml;
+  home.file.".config/starship.toml".source = ./starship.toml;
   programs.starship = {
     enable = true;
     # we need the latest version for the `heuristic` setting

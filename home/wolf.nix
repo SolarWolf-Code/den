@@ -6,13 +6,14 @@
   ...
 }: {
   imports = [
-    ./programs/starship.nix
-    ./programs/alacritty.nix
-    ./programs/direnv.nix
-    ./programs/fish.nix
-    ./programs/rofi.nix
-    ./programs/micro.nix
-    ./programs/flameshot.nix
+    ./programs/starship/starship.nix
+    ./programs/alacritty/alacritty.nix
+    ./programs/direnv/direnv.nix
+    ./programs/fish/fish.nix
+    ./programs/rofi/rofi.nix
+    ./programs/micro/micro.nix
+	./wallpaper.nix
+    ./programs/flameshot/flameshot.nix
   ];
 
   nixpkgs = {

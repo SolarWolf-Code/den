@@ -65,7 +65,7 @@
   # Enable i3wm
   services.xserver.enable = true;
   services.xserver.autorun = true;
-  services.xserver.desktopManager.default = "none+i3";
+  services.xserver.displayManager.defaultSession = "none+i3";
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.windowManager.i3.enable = true;
   services.xserver.windowManager.i3.configFile = ./../home/i3config;
