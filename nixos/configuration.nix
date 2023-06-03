@@ -68,8 +68,7 @@
   services.xserver.displayManager.defaultSession = "none+i3";
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.windowManager.i3.enable = true;
-  services.xserver.windowManager.i3.configFile = ./../home/i3config;
-
+  services.xserver.windowManager.i3.configFile = ./../home/programs/i3/i3config;
 
   # OpenVPN
   age.identityPaths = ["/home/wolf/test_key.txt"];
@@ -82,8 +81,9 @@
 	  auth-user-pass ${config.age.secrets.ovpn-creds.file}
   	'';
   };
-  # services.openvpn.servers.slc.authUserPass = config.age.secrets.ovpn-creds.path;
 
+  # Bluetooth
+  hardware.bluetooth.enable = true;
 
   # Configure keymap in X11
   services.xserver = {

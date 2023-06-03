@@ -14,6 +14,7 @@
     ./programs/micro/micro.nix
 	./wallpaper.nix
     ./programs/flameshot/flameshot.nix
+    ./programs/dunst/dunst.nix
   ];
 
   nixpkgs = {
@@ -36,6 +37,9 @@
         htop
         neofetch
         magic-wormhole
+    	picom
+		pavucontrol
+		handlr
 
         # gui
         discord
@@ -46,6 +50,18 @@
 	    librewolf
 	    rofi
 	    qview
+	    spotify
+	    virt-manager
+	    steam
+	    #jetbrains.clion
+	    #jetbrains.idea-ultimate
+	    #rustdesk
+	    lutris
+	    libreoffice
+	    vlc
+	    obs-studio
+		blueberry
+		dunst
       ]
       ++ [
         inputs.nh.packages.${pkgs.system}.default
