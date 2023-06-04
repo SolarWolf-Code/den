@@ -34,7 +34,8 @@ in {
       download = "aria2c --split=10";
       extract = "7z x";
       usage = "erd --human";
-      files = "nnn -eHr";
+      files = "nnn -e -H -r";
+      n = "nnn -e -H -r";
     };
     # wish they'd just remove this garbage
     interactiveShellInit = "set -U fish_greeting";
