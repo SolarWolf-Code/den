@@ -53,8 +53,8 @@
 	    spotify
 	    virt-manager
 	    steam
-	    #jetbrains.clion
-	    #jetbrains.idea-ultimate
+	    jetbrains.clion
+	    jetbrains.idea-ultimate
 	    #rustdesk
 	    lutris
 	    libreoffice
