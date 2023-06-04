@@ -55,7 +55,7 @@
 	    steam
 	    jetbrains.clion
 	    jetbrains.idea-ultimate
-	    #rustdesk
+	    rustdesk
 	    lutris
 	    libreoffice
 	    vlc
