@@ -4,11 +4,11 @@ nixos dotfiles
 
 Steps to rebuild:
 - install nixos
-- add flakes and nix-command
+- add `nix.settings.experimental-features = ["nix-command" "flakes"];` to /etc/nixos/configuration.nix
 - `nix shell nixpkgs#git`
 - `git clone https://github.com/solarwolf-code/den.git`
 - `cd den`
-- `cp /etc/nixos/hardware-configuration.nix nixos/`
+- `sudo cp /etc/nixos/hardware-configuration.nix nixos/`
 - copy over boot.loader stuff from /etc/nixos/configuration.nix
 - `sudo nixos-rebuild boot --flake .#wolf-nix`
 - `reboot`
