@@ -139,8 +139,6 @@
     description = "wolf";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
-      kate
       git
       micro
     ];
