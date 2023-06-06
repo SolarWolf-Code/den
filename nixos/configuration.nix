@@ -67,6 +67,8 @@
   services.xserver.autorun = true;
   services.xserver.displayManager.defaultSession = "none+i3";
   services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.displayManager.autoLogin.enable = true;
+  services.xserver.displayManager.autoLogin.user = "wolf";
   services.xserver.windowManager.i3.enable = true;
   services.xserver.windowManager.i3.configFile = ./../home/programs/i3/i3config;
 
